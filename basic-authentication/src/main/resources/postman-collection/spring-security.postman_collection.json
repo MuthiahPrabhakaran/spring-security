@@ -1,0 +1,28 @@
+{
+	"variables": [],
+	"info": {
+		"name": "spring-security",
+		"_postman_id": "4d8d1373-d250-099d-2ff3-f43e924e6d01",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "basic-authentication",
+			"request": {
+				"url": "localhost:8080",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjpwYXNzd29yZA==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Added basic auth. Username is user, password is password"
+			},
+			"response": []
+		}
+	]
+}
